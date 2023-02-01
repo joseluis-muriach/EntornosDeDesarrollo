@@ -1,8 +1,8 @@
-package Ejercicio_2;
+package Exercise_2;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.AssertJUnit.assertEquals;
 
 public class TestMcd {
     public static void main(String[] args) {
@@ -29,6 +29,5 @@ public class TestMcd {
         assertEquals(4, mcdFalso.calculoMcd());
 
     }
-
 
 }

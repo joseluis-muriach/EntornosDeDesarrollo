@@ -1,4 +1,4 @@
-package Ejercicio_2;
+package Exercise_2;
 
 public class Mcd {
 

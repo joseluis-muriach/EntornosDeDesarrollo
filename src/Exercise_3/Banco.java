@@ -1,4 +1,4 @@
-package Ejercicio_3;
+package Exercise_3;
 
 public class Banco {
 

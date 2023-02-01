@@ -1,3 +1,5 @@
+package Exercise_1;
+
 import javax.swing.*;
 
 public class PrimeraPractica {

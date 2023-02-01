@@ -1,3 +1,5 @@
+package Exercise_3;
+
 import java.util.Scanner;
 
 public class Capitulo3 {
@@ -7,12 +9,11 @@ public class Capitulo3 {
         float nTeoria = 0f;
         float nTrabajos = 0f;
         float notaFinal = 0f;
-
-
         Scanner inputValue = new Scanner(System.in);
-        System.out.println("Nota Práctica (A o NA)");
+
+        System.out.println("Nota Práctica (A o N)");
         System.out.print("--> ");
-        practica = inputValue.next();
+        practica = inputValue.nextLine();
 
         System.out.println("Nota Teoría");
         System.out.print("--> ");
@@ -21,7 +22,6 @@ public class Capitulo3 {
         System.out.println("Nota Trabajo");
         System.out.print("--> ");
         nTrabajos = inputValue.nextFloat();
-
 
         if (practica.equals("NA")) {
             notaFinal = 4;
